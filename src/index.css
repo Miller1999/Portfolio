@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://source.unsplash.com/random/1920x1080");
+  background-size: cover;
+}
+
+#floor {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(59, 130, 246, 1) 100%
+  );
+}
