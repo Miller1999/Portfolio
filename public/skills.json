@@ -1,0 +1,14 @@
+{
+  "skills": [
+    {
+      "title": "JavaScript",
+      "img": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
+      "category": "Technical"
+    },
+    {
+      "title": "Manejo del tiempo",
+      "img": "https://www.svgrepo.com/show/530409/time.svg",
+      "category": "Soft"
+    }
+  ]
+}

@@ -10,6 +10,7 @@
   width: 100%;
   height: 100vh;
   background-image: url("https://source.unsplash.com/random/1920x1080");
+  background-color: black;
   background-size: cover;
 }
 
@@ -20,4 +21,19 @@
     rgba(255, 255, 255, 0) 75%,
     rgba(59, 130, 246, 1) 100%
   );
+}
+#buttons-floor {
+  transform: translateY(1rem);
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
+}
+
+#titles {
+  opacity: 0;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
+}
+#buttons-floor:hover {
+  transform: translateY(0) scale(1.2);
+}
+button:hover + #titles {
+  opacity: 100;
 }
