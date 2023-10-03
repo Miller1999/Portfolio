@@ -1,24 +1,22 @@
 import { Fragment, useContext } from "react";
 import Perfil from "../../assets/perfil.jpeg";
 import { PortfolioContext } from "../../Context/context";
+import Aside from "../Aside/Aside";
 
 const AboutMe = () => {
   const { aboutMe, handleAboutMe, biography, handleBiography } =
     useContext(PortfolioContext);
   return (
     <Fragment>
-      <aside className="w-2/5 max-w-[calc(135px+32px)] h-[calc(647px-32px)] border-r border-black p-4 bg-gray-500 flex flex-col gap-5">
-        <span>Panel</span>
-        <div className="flex flex-col gap-5">
-          {/*Secciones*/}
-          <div className="flex justify-center py-2 rounded-lg hover:bg-gray-300 hover:text-black">
-            <button onClick={() => handleAboutMe()}>About Me</button>
-          </div>
-          <div className="flex justify-center py-2 rounded-lg hover:bg-gray-300 hover:text-black">
-            <button onClick={() => handleBiography()}>Biography</button>
-          </div>
+      <Aside>
+        {/*Secciones*/}
+        <div className="flex justify-center py-2 rounded-lg hover:bg-gray-300 hover:text-black">
+          <button onClick={() => handleAboutMe()}>About Me</button>
         </div>
-      </aside>
+        <div className="flex justify-center py-2 rounded-lg hover:bg-gray-300 hover:text-black">
+          <button onClick={() => handleBiography()}>Biography</button>
+        </div>
+      </Aside>
       <div className="h-full max-h-[600px] p-10 max-w-4xl text-base  overflow-y-auto">
         {aboutMe ? (
           <div className="flex flex-col gap-5 items-center">

@@ -1,37 +1,79 @@
 import { Fragment, useContext } from "react";
 import { PortfolioContext } from "../../Context/context";
+import Card from "../Card/Card";
+import Aside from "../Aside/Aside";
 
 const Skills = () => {
-  const { ListSkills, skills } = useContext(PortfolioContext);
+  const context = useContext(PortfolioContext);
+  const Tech = context.ListSkills.filter(
+    (skill) => skill.category === "Technical"
+  );
+  const Soft = context.ListSkills.filter((skill) => skill.category === "Soft");
   return (
     <Fragment>
-      <aside className="w-2/5 max-w-[calc(135px+32px)] h-[calc(647px-32px)] border-r border-black p-4 bg-gray-500 flex flex-col gap-5">
-        <span>Panel</span>
+      <Aside>
         <div className="flex flex-col gap-5">
           {/*Secciones*/}
           <div className="flex justify-center py-2 rounded-lg hover:bg-gray-300 hover:text-black">
-            <button>All</button>
+            <button
+              onClick={() => {
+                context.handleSkills();
+              }}
+            >
+              All
+            </button>
           </div>
           <div className="flex justify-center py-2 rounded-lg hover:bg-gray-300 hover:text-black">
-            <button>Technical Skills</button>
+            <button
+              onClick={() => {
+                context.handleTechnical();
+              }}
+            >
+              Technical Skills
+            </button>
           </div>
           <div className="flex justify-center py-2 rounded-lg hover:bg-gray-300 hover:text-black">
-            <button>Soft Skills</button>
+            <button
+              onClick={() => {
+                context.handleSoft();
+              }}
+            >
+              Soft Skills
+            </button>
           </div>
         </div>
-      </aside>
+      </Aside>
       <div className="h-full max-h-[600px] p-10 max-w-4xl text-base  overflow-y-auto">
-        {skills ? (
-          <Fragment>
-            {ListSkills.map((skill) => {
+        {context.skills ? (
+          <div className="flex gap-10 flex-wrap">
+            {context.ListSkills.map((skill) => {
               return (
-                <div key={skill.title} className="flex flex-col">
-                  <img src={skill.img} alt={skill.title} />
-                  <p>{skill.title}</p>
-                </div>
+                <Card title={skill.title} key={skill.title} img={skill.img} />
               );
             })}
-          </Fragment>
+          </div>
+        ) : (
+          <Fragment />
+        )}
+        {context.technical ? (
+          <div className="flex gap-10 flex-wrap">
+            {Tech.map((skill) => {
+              return (
+                <Card title={skill.title} key={skill.title} img={skill.img} />
+              );
+            })}
+          </div>
+        ) : (
+          <Fragment />
+        )}
+        {context.soft ? (
+          <div className="flex gap-10 flex-wrap">
+            {Soft.map((skill) => {
+              return (
+                <Card title={skill.title} key={skill.title} img={skill.img} />
+              );
+            })}
+          </div>
         ) : (
           <Fragment />
         )}

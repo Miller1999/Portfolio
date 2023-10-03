@@ -13,16 +13,17 @@ export const PortfolioContextProvider = ({ children }) => {
   const [technical, setTechnical] = useState(false);
   const [soft, setSoft] = useState(false);
 
-  const [ListSkills, setListSkills] = useState(false);
+  const [ListSkills, setListSkills] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("../../public/skills.json")
-      .then((res) => setListSkills(res.data.skills))
-      .catch((err) => console.log(err));
+    try {
+      axios
+        .get("../../info.json")
+        .then((res) => setListSkills(res.data.skills));
+    } catch (error) {
+      console.warn("Error en el axios");
+    }
   }, []);
-
-  console.log(ListSkills);
 
   const handleAboutMe = () => {
     setAboutMe(true);
@@ -49,11 +50,13 @@ export const PortfolioContextProvider = ({ children }) => {
     setShowSkills(true);
     setTechnical(true);
     setSkills(false);
+    setSoft(false);
   };
   const handleSoft = () => {
     setShowSkills(true);
     setSoft(true);
     setSkills(false);
+    setTechnical(false);
   };
   const handleClose = () => {
     setAboutMe(false);
