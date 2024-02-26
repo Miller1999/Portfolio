@@ -7,7 +7,7 @@ import "./header.sass";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 
-const Header = () => {
+const Header = ({ setShowNav, showNav, setShowHome, showHome }) => {
 	return (
 		<header>
 			<div className="logo">
@@ -18,7 +18,12 @@ const Header = () => {
 					<LightModeOutlinedIcon className="icon hidden" fontSize="small" />
 					<DarkModeOutlinedIcon className="icon" fontSize="small" />
 				</button>
-				<button>
+				<button
+					onClick={() => {
+						setShowNav(!showNav);
+						setShowHome(!showHome);
+					}}
+				>
 					<Hamburguer />
 				</button>
 			</div>
