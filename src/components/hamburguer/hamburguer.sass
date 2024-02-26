@@ -1,0 +1,11 @@
+.hamburguer
+  display: grid
+  height: 100%
+  grid-template-columns: 1fr 1fr 1fr
+  gap: 2px
+  @for $i from 1 through 9
+    div:nth-child(n)
+      width: 5px
+      height: 5px
+      border: 1px black solid
+      border-radius: 50%

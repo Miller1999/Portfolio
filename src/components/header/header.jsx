@@ -1,5 +1,9 @@
-import Logo from "../assets/images/logo.webp";
+//Assets
+import Logo from "../../assets/images/logo.webp";
+import Hamburguer from "../hamburguer/hamburguer";
+//Styles
 import "./header.sass";
+//Icons
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 
 const Header = () => {
@@ -12,7 +16,9 @@ const Header = () => {
 				<button>
 					<LightModeOutlinedIcon fontSize="small" />
 				</button>
-				<button>Menu</button>
+				<button>
+					<Hamburguer />
+				</button>
 			</div>
 		</header>
 	);

@@ -1,3 +1,6 @@
+@mixin transparentButton()
+  background: none
+  border: none
 
 header
   width: 100%
@@ -14,3 +17,8 @@ header
   .container--buttons
     display: flex
     align-items: center
+    height: 100%
+    gap: 1rem
+    button
+      height: 25px
+      @include transparentButton()
