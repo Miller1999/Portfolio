@@ -5,6 +5,7 @@ import Hamburguer from "../hamburguer/hamburguer";
 import "./header.sass";
 //Icons
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
+import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 
 const Header = () => {
 	return (
@@ -14,7 +15,8 @@ const Header = () => {
 			</div>
 			<div className="container--buttons">
 				<button>
-					<LightModeOutlinedIcon fontSize="small" />
+					<LightModeOutlinedIcon className="icon hidden" fontSize="small" />
+					<DarkModeOutlinedIcon className="icon" fontSize="small" />
 				</button>
 				<button>
 					<Hamburguer />
