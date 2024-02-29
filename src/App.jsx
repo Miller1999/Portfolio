@@ -4,6 +4,7 @@ import "./style.sass";
 import Menu from "./components/menu/menu";
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
+import Work from "./pages/work/work";
 function App() {
 	const [showNav, setShowNav] = useState(false);
 	const [showHome, setShowHome] = useState(true);
@@ -16,10 +17,7 @@ function App() {
 				setShowHome={setShowHome}
 			/>
 			{showNav ? <Menu /> : <Fragment></Fragment>}
-			{
-				// showHome ? <Home /> : <Fragment></Fragment>
-			}
-			<About />
+			<Work />
 		</Fragment>
 	);
 }
