@@ -1,4 +1,8 @@
+import "./about.sass";
+import { skills } from "../../info.json";
 const About = () => {
+	console.log(skills);
+
 	return (
 		<main className="about">
 			<div className="profile--image">
@@ -31,6 +35,19 @@ const About = () => {
 					founding my own game studio, while continuing to learn and grow. My
 					journey reflects determination and passion for technology.
 				</p>
+			</div>
+			<div id="skills" className="skills">
+				<h2>Skills</h2>
+				<div className="skills--sections">
+					<div className="Skills">
+						{skills.map((skill) => (
+							<article key={skill.title} className="Skills--item">
+								<img src={skill.img} alt={skill.title} />
+								<span className="tooltipText">{skill.title}</span>
+							</article>
+						))}
+					</div>
+				</div>
 			</div>
 		</main>
 	);

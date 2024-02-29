@@ -1,4 +1,5 @@
 import "./menu.sass";
+import { social } from "../../info.json";
 
 const Menu = () => {
 	return (
@@ -21,46 +22,13 @@ const Menu = () => {
 				</li>
 			</ul>
 			<ul className="socialMedia">
-				<li>
-					<a href="">
-						<img
-							src="https://www.svgrepo.com/show/450156/github.svg"
-							alt="Github"
-						/>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img
-							src="https://www.svgrepo.com/show/452051/linkedin.svg"
-							alt="LinkedIn"
-						/>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img
-							src="https://www.svgrepo.com/show/452133/whatsapp.svg"
-							alt="WhatsApp"
-						/>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img
-							src="https://www.svgrepo.com/show/477054/email-download.svg"
-							alt="Mail"
-						/>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img
-							src="https://www.svgrepo.com/show/281704/curriculum-resume.svg"
-							alt="Resume"
-						/>
-					</a>
-				</li>
+				{social.map((media) => (
+					<li key={media.name}>
+						<a href={media.link}>
+							<img src={media.logo} alt={media.name} />
+						</a>
+					</li>
+				))}
 			</ul>
 		</nav>
 	);

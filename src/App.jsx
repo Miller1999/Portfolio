@@ -16,7 +16,9 @@ function App() {
 				setShowHome={setShowHome}
 			/>
 			{showNav ? <Menu /> : <Fragment></Fragment>}
-			{showHome ? <Home /> : <Fragment></Fragment>}
+			{
+				// showHome ? <Home /> : <Fragment></Fragment>
+			}
 			<About />
 		</Fragment>
 	);
