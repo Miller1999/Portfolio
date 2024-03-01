@@ -6,6 +6,7 @@ import Home from "./pages/home/home";
 import About from "./pages/about/about";
 import Work from "./pages/work/work";
 import Education from "./pages/education/education";
+import Contact from "./pages/contact/contact";
 function App() {
 	const [showNav, setShowNav] = useState(false);
 	const [showHome, setShowHome] = useState(true);
@@ -18,7 +19,7 @@ function App() {
 				setShowHome={setShowHome}
 			/>
 			{showNav ? <Menu /> : <Fragment></Fragment>}
-			<Education />
+			<Contact />
 		</Fragment>
 	);
 }
