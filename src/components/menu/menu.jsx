@@ -3,7 +3,7 @@ import { social } from "../../info.json";
 
 const Menu = () => {
 	return (
-		<nav>
+		<nav className="menu__container">
 			<ul className="menu">
 				<li>
 					<a href="/index.html">1. Home</a>
