@@ -1,8 +1,6 @@
 import "./about.sass";
 import { skills } from "../../info.json";
 const About = () => {
-	console.log(skills);
-
 	return (
 		<main className="about">
 			<div className="profile--image">

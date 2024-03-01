@@ -6,15 +6,12 @@ import "./header.sass";
 //Icons
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import { Link } from "react-router-dom";
 
 const Header = ({ setShowNav, showNav, setShowHome, showHome }) => {
 	return (
 		<header>
 			<div className="logo">
-				<Link to="/">
-					<img src={Logo} alt="Miller Arias Dev" />
-				</Link>
+				<img src={Logo} alt="Miller Arias Dev" />
 			</div>
 			<div className="container--buttons">
 				<button>
