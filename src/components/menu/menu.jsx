@@ -1,24 +1,65 @@
 import "./menu.sass";
 import { social } from "../../info.json";
+import { Link } from "react-router-dom";
 
-const Menu = () => {
+const Menu = (setShowNav, showNav, setShowHome, showHome) => {
 	return (
 		<nav className="menu__container">
 			<ul className="menu">
 				<li>
-					<a href="/index.html">1. Home</a>
+					<Link
+						to="/"
+						onClick={() => {
+							setShowNav(!showNav);
+							setShowHome(!showHome);
+						}}
+					>
+						1. Home
+					</Link>
 				</li>
 				<li>
-					<a href="/pages/about.html">2. About</a>
+					<Link
+						to="/about"
+						onClick={() => {
+							setShowNav(!showNav);
+							setShowHome(!showHome);
+						}}
+					>
+						2. About
+					</Link>
 				</li>
 				<li>
-					<a href="/pages/work.html">3. Work</a>
+					<Link
+						to="/work"
+						onClick={() => {
+							setShowNav(!showNav);
+							setShowHome(!showHome);
+						}}
+					>
+						3. Work
+					</Link>
 				</li>
 				<li>
-					<a href="/pages/education.html">4. Education</a>
+					<Link
+						to="/education"
+						onClick={() => {
+							setShowNav(!showNav);
+							setShowHome(!showHome);
+						}}
+					>
+						4. Education
+					</Link>
 				</li>
 				<li>
-					<a href="/pages/contact.html">5. Contact</a>
+					<Link
+						to="/contact"
+						onClick={() => {
+							setShowNav(!showNav);
+							setShowHome(!showHome);
+						}}
+					>
+						5. Contact
+					</Link>
 				</li>
 			</ul>
 			<ul className="socialMedia">
