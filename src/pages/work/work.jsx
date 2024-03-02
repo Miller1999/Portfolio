@@ -1,6 +1,5 @@
 import "./work.sass";
 import { projects } from "../../info.json";
-import DoubleArrowOutlinedIcon from "@mui/icons-material/DoubleArrowOutlined";
 
 const Work = () => {
 	return (
@@ -11,7 +10,10 @@ const Work = () => {
 			</div>
 			{projects.map((project) => (
 				<div key={project.title} className="work--title">
-					<DoubleArrowOutlinedIcon className="icon" />
+					<img
+						className="icon"
+						src="https://www.svgrepo.com/show/502625/double-arrow-right.svg"
+					/>
 					<h2>{project.title}</h2>
 				</div>
 			))}

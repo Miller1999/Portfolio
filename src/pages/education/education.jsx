@@ -4,40 +4,39 @@ import { useState } from "react";
 
 const Education = () => {
 	const [selected, setSelected] = useState("");
-	const names = education.map((item) => item.institution);
-	const tabs = [];
+	const tabs = [
+		"All",
+		"Professional",
+		"Development",
+		"Languages",
+		"Soft Skills",
+	];
 	function click(e) {
 		setSelected(e.target.textContent);
 	}
-	function institutionsNames(institution) {
-		institution.forEach((item) => {
-			if (tabs.indexOf(item) === -1) {
-				tabs.push(item);
-			}
-		});
-	}
-	institutionsNames(names);
-
 	return (
 		<main>
 			<nav className="tabs">
-				<div onClick={(e) => click(e)}>All</div>
 				{tabs.map((tab) => (
 					<div key={tab} onClick={(e) => click(e)}>
-						{tab}
+						<p>{tab}</p>
 					</div>
 				))}
 			</nav>
-			{selected === "Platzi" ? (
+			{selected === "Professional" ? (
 				<section className="Education">
 					<div className="Schools">
 						{education
-							.filter((ed) => ed.institution === "Platzi")
+							.filter((ed) => ed.type === "Professional")
 							.map((item) => (
 								<article key={item.title} className="Schools--item">
 									<div>
 										<h3>{item.title}</h3>
-										<img src={item.logo} alt={item.institution} />
+										<img
+											id={item.institution}
+											src={item.logo}
+											alt={item.institution}
+										/>
 									</div>
 									<div>
 										<p>{item.institution}</p>
@@ -47,18 +46,20 @@ const Education = () => {
 							))}
 					</div>
 				</section>
-			) : selected === "National University of colombia" ? (
+			) : selected === "Development" ? (
 				<section className="Education">
 					<div className="Schools">
 						{education
-							.filter(
-								(ed) => ed.institution === "National University of colombia"
-							)
+							.filter((ed) => ed.type === "Development")
 							.map((item) => (
 								<article key={item.title} className="Schools--item">
 									<div>
 										<h3>{item.title}</h3>
-										<img src={item.logo} alt={item.institution} />
+										<img
+											id={item.institution}
+											src={item.logo}
+											alt={item.institution}
+										/>
 									</div>
 									<div>
 										<p>{item.institution}</p>
@@ -68,16 +69,20 @@ const Education = () => {
 							))}
 					</div>
 				</section>
-			) : selected === "Alura" ? (
+			) : selected === "Languages" ? (
 				<section className="Education">
 					<div className="Schools">
 						{education
-							.filter((ed) => ed.institution === "Alura")
+							.filter((ed) => ed.type === "Languages")
 							.map((item) => (
 								<article key={item.title} className="Schools--item">
 									<div>
 										<h3>{item.title}</h3>
-										<img src={item.logo} alt={item.institution} />
+										<img
+											id={item.institution}
+											src={item.logo}
+											alt={item.institution}
+										/>
 									</div>
 									<div>
 										<p>{item.institution}</p>
@@ -87,16 +92,20 @@ const Education = () => {
 							))}
 					</div>
 				</section>
-			) : selected === "Centro Colombo Americano" ? (
+			) : selected === "Soft Skills" ? (
 				<section className="Education">
 					<div className="Schools">
 						{education
-							.filter((ed) => ed.institution === "Centro Colombo Americano")
+							.filter((ed) => ed.type === "Soft Skills")
 							.map((item) => (
 								<article key={item.title} className="Schools--item">
 									<div>
 										<h3>{item.title}</h3>
-										<img src={item.logo} alt={item.institution} />
+										<img
+											id={item.institution}
+											src={item.logo}
+											alt={item.institution}
+										/>
 									</div>
 									<div>
 										<p>{item.institution}</p>
@@ -113,7 +122,11 @@ const Education = () => {
 							<article key={item.title} className="Schools--item">
 								<div>
 									<h3>{item.title}</h3>
-									<img src={item.logo} alt={item.institution} />
+									<img
+										id={item.institution}
+										src={item.logo}
+										alt={item.institution}
+									/>
 								</div>
 								<div>
 									<p>{item.institution}</p>

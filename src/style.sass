@@ -4,11 +4,146 @@
 *
   box-sizing: border-box
   font-family: $body, serif
-  // border: red 1px solid !important
+  //border: red 1px solid !important
+
+.light
+  background-color: $Lavender
+  h1,h2,h3,h4,h5,h6,a
+    color: $MiddleBlue
+  p
+    color: $Darkblue
+
+  .hamburguer
+    div
+      border: 1px solid $MiddleBlue
+  .logo
+    filter: invert(6%) sepia(56%) saturate(3609%) hue-rotate(173deg) brightness(97%) contrast(99%)
+  .icon
+    filter: invert(37%) sepia(70%) saturate(517%) hue-rotate(142deg) brightness(93%) contrast(84%)
+  #NextJs
+    filter: invert(45%) sepia(0%) saturate(1896%) hue-rotate(158deg) brightness(90%) contrast(89%)
+  #NextJs:hover
+    filter: none
+  #Alura
+    filter: invert(100%)
+  .work--title
+    border-bottom: 1px solid $MiddleBlue
+    span
+      color: $MiddleBlue
+  .tabs
+    div
+      animation: .3s gradientb forwards linear
+    div:hover
+      border: none
+      animation: .3s gradientf forwards linear
+      p
+        color: $White
+.dark
+  background-color: $Black
+  h1,h2,h3,h4,h5,h6,a
+    color: $LightViolet
+  p
+    color: $UltralightViolet
+
+  .hamburguer
+    div
+      border: 1px solid $LightViolet
+  .logo
+    filter: invert(89%) sepia(8%) saturate(851%) hue-rotate(185deg) brightness(92%) contrast(90%)
+  .icon
+    filter: invert(89%) sepia(8%) saturate(851%) hue-rotate(185deg) brightness(92%) contrast(90%)
+  #NextJs
+    filter: invert(45%) sepia(0%) saturate(1896%) hue-rotate(158deg) brightness(90%) contrast(89%)
+    transition: all 1s
+  #NextJs:hover
+    filter: invert(100%)
+
+  .work--title
+    border-bottom: 1px solid $DarkViole
+    span
+      color: $LightViolet
+  .tabs
+    div
+      animation: .3s gradientb forwards linear
+    div:hover
+      border: none
+      animation: .3s gradientf forwards linear
+      p
+        color: $White
+
 .hidden
-  display: none
+  transform: translateY(-20px)
   opacity: 0
+  z-index: -1
+
 h1,h2,h3,h4,h5,h6
   font-family: $title
 main
   padding: 1rem
+  min-height: calc( 100vh - 6.25rem)
+
+  @keyframes gradientf
+    0%
+      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 0%, $LightBlue 0%)
+
+    25%
+      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 0%, $LightBlue 25%)
+
+    50%
+      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 25%, $LightBlue 50%)
+
+    75%
+      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 75%)
+
+    100%
+      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 100%)
+
+@keyframes gradientb
+  100%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 0%, $LightBlue 0%)
+
+  75%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 0%, $LightBlue 25%)
+
+  50%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 25%, $LightBlue 50%)
+
+  50%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 75%)
+
+  0%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 100%)
+
+@keyframes bg-animation
+  0%
+    transform: translate(0,0)
+
+  10%
+    transform: translate(-5%,-5%)
+
+  20%
+    transform: translate(-10%,5%)
+
+  30%
+    transform: translate(5%,-10%)
+
+  40%
+    transform: translate(-5%,15%)
+
+  50%
+    transform: translate(-10%,5%)
+
+  60%
+    transform: translate(15%,0)
+
+  70%
+    transform: translate(0,10%)
+
+  80%
+    transform: translate(-15%,0)
+
+  90%
+    transform: translate(10%,5%)
+
+  100%
+    transform: translate(5%,0)

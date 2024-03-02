@@ -1,10 +1,12 @@
 import "./menu.sass";
 import { social } from "../../info.json";
 import { Link } from "react-router-dom";
+import { useTheme } from "../../App";
 
-const Menu = (setShowNav, showNav, setShowHome, showHome) => {
+const Menu = ({ setShowNav, showNav, setShowHome, showHome }) => {
+	const { theme } = useTheme();
 	return (
-		<nav className="menu__container">
+		<nav className={`menu__container ${theme ? "light" : "dark"}`}>
 			<ul className="menu">
 				<li>
 					<Link

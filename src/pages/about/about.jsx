@@ -40,7 +40,7 @@ const About = () => {
 					<div className="Skills">
 						{skills.map((skill) => (
 							<article key={skill.title} className="Skills--item">
-								<img src={skill.img} alt={skill.title} />
+								<img id={skill.title} src={skill.img} alt={skill.title} />
 								<span className="tooltipText">{skill.title}</span>
 							</article>
 						))}
