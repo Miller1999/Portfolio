@@ -62,14 +62,18 @@
     border-bottom: 1px solid $DarkViole
     span
       color: $LightViolet
+      font-weight: 900
   .tabs
     div
-      animation: .3s gradientb forwards linear
+      animation: .3s gradientbd forwards linear
+      p
+        color: $Black
     div:hover
       border: none
-      animation: .3s gradientf forwards linear
+      animation: .3s gradientfd forwards linear
       p
         color: $White
+        font-weight: 900
 
 .hidden
   transform: translateY(-20px)
@@ -85,21 +89,21 @@ main
 header
   overflow: hidden
 
-  @keyframes gradientf
-    0%
-      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 0%, $LightBlue 0%)
+@keyframes gradientf
+  0%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 0%, $LightBlue 0%)
 
-    25%
-      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 0%, $LightBlue 25%)
+  25%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 0%, $LightBlue 25%)
 
-    50%
-      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 25%, $LightBlue 50%)
+  50%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 25%, $LightBlue 50%)
 
-    75%
-      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 75%)
+  75%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 75%)
 
-    100%
-      background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 100%)
+  100%
+    background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 100%)
 
 @keyframes gradientb
   100%
@@ -117,36 +121,34 @@ header
   0%
     background: linear-gradient(0deg, $Darkblue 0%, $MiddleBlue 50%, $LightBlue 100%)
 
-@keyframes bg-animation
+@keyframes gradientfd
   0%
-    transform: translate(0,0)
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 0%, $LightViolet 0%)
 
-  10%
-    transform: translate(-5%,-5%)
-
-  20%
-    transform: translate(-10%,5%)
-
-  30%
-    transform: translate(5%,-10%)
-
-  40%
-    transform: translate(-5%,15%)
+  25%
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 0%, $LightViolet 25%)
 
   50%
-    transform: translate(-10%,5%)
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 25%, $LightViolet 50%)
 
-  60%
-    transform: translate(15%,0)
-
-  70%
-    transform: translate(0,10%)
-
-  80%
-    transform: translate(-15%,0)
-
-  90%
-    transform: translate(10%,5%)
+  75%
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 50%, $LightViolet 75%)
 
   100%
-    transform: translate(5%,0)
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 50%, $LightViolet 100%)
+
+@keyframes gradientbd
+  100%
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 0%, $LightViolet 0%)
+
+  75%
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 0%, $LightViolet 25%)
+
+  50%
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 25%, $LightViolet 50%)
+
+  50%
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 50%, $LightViolet 75%)
+
+  0%
+    background: linear-gradient(0deg, $DarkViole 0%, $MiddleViolet 50%, $LightViolet 100%)
