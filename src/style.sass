@@ -7,6 +7,7 @@
   //border: red 1px solid !important
 
 .light
+  transition: all 1s
   background-color: $Lavender
   h1,h2,h3,h4,h5,h6,a
     color: $MiddleBlue
@@ -38,7 +39,13 @@
       animation: .3s gradientf forwards linear
       p
         color: $White
+  .project__container
+    div
+      border-bottom: 2px dashed $MiddleBlue
+    div:last-child
+      border: none
 .dark
+  transition: all 1s
   background-color: $Black
   h1,h2,h3,h4,h5,h6,a
     color: $LightViolet
@@ -74,6 +81,11 @@
       p
         color: $White
         font-weight: 900
+  .project__container
+    div
+      border-bottom: 2px dashed $LightViolet
+    div:last-child
+      border: none
 
 .hidden
   transform: translateY(-20px)
@@ -84,10 +96,14 @@ h1,h2,h3,h4,h5,h6
   font-family: $title
 main
   padding: 1rem
+  margin-top: 6.25rem
   min-height: calc( 100vh - 6.25rem)
   overflow-x: hidden
 header
   overflow: hidden
+  position: fixed
+  top: 0
+  z-index: 100
 
 @keyframes gradientf
   0%

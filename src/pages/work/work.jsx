@@ -1,5 +1,6 @@
 import "./work.sass";
 import { projects } from "../../info.json";
+import { Link } from "react-router-dom";
 
 const Work = () => {
 	return (
@@ -9,13 +10,15 @@ const Work = () => {
 				<span>{projects.length}</span>
 			</div>
 			{projects.map((project) => (
-				<div key={project.title} className="works__title">
-					<img
-						className="icon"
-						src="https://www.svgrepo.com/show/502625/double-arrow-right.svg"
-					/>
-					<h2>{project.title}</h2>
-				</div>
+				<Link key={project.title} to={`/work/${project.title}`}>
+					<div className="works__title">
+						<img
+							className="icon"
+							src="https://www.svgrepo.com/show/502625/double-arrow-right.svg"
+						/>
+						<h2>{project.title}</h2>
+					</div>
+				</Link>
 			))}
 		</main>
 	);

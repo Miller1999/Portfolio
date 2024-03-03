@@ -6,7 +6,9 @@ import Work from "./pages/work/work";
 import Education from "./pages/education/education";
 import Contact from "./pages/contact/contact";
 import Layout from "./components/layout/layout";
+import Template from "./pages/work/projects/template";
 import "./style.sass";
+import { projects } from "./info.json";
 
 const ThemeContext = createContext();
 function App() {
@@ -30,6 +32,10 @@ function App() {
 									<Route path="/" element={<Home />} />
 									<Route path="/about" element={<About />} />
 									<Route path="/work" element={<Work />} />
+									<Route
+										path={`/work/:name`}
+										element={<Template projects={projects} />}
+									/>
 									<Route path="/education" element={<Education />} />
 									<Route path="/contact" element={<Contact />} />
 								</Fragment>
