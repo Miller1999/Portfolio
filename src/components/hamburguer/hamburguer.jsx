@@ -11,6 +11,8 @@ const Hamburguer = () => {
 			<div className="dot7"></div>
 			<div className="dot8"></div>
 			<div className="dot9"></div>
+			<div id="vertical"></div>
+			<div id="horizontal"></div>
 		</div>
 	);
 };

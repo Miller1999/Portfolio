@@ -1,4 +1,5 @@
 //Assets
+import { Link } from "react-router-dom";
 import { useTheme } from "../../App";
 import Logo from "../../assets/images/logo.webp";
 import Hamburguer from "../hamburguer/hamburguer";
@@ -22,7 +23,15 @@ const Header = ({ setShowNav, showNav, setShowHome, showHome }) => {
 	return (
 		<header className={` ${theme ? "light" : "dark"}`}>
 			<div className="logo">
-				<img src={Logo} alt="Miller Arias Dev" />
+				<Link
+					to="/"
+					onClick={() => {
+						setShowNav(false);
+						setShowHome(true);
+					}}
+				>
+					<img src={Logo} alt="Miller Arias Dev" />
+				</Link>
 			</div>
 			<div className="container--buttons">
 				<button onClick={toggleTheme}>
