@@ -9,7 +9,7 @@ const Work = () => {
 				<span>{projects.length}</span>
 			</div>
 			{projects.map((project) => (
-				<div key={project.title} className="work--title">
+				<div key={project.title} className="works__title">
 					<img
 						className="icon"
 						src="https://www.svgrepo.com/show/502625/double-arrow-right.svg"

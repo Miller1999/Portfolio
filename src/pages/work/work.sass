@@ -3,15 +3,30 @@
   display: flex
   align-items: center
   justify-content: space-between
-  border-bottom: 1px black solid
   .icon
     width: 25px
-    display: none
     opacity: 0
 .work--title:hover
-  border-bottom: 2px black solid
+
   .icon
-    display: block
+    opacity: 1
+.work--title:last-child
+  border: none
+.works__title
+  position: relative
+  display: flex
+  align-items: center
+  transition: 1s all
+  .icon
+    width: 0px
+    opacity: 0
+.works__title:hover
+  h2
+    transition: 1s all
+    transform: translateX(20px)
+  .icon
+    transition: 1s all
+    width: 25px
     opacity: 1
 .work--title:last-child
   border: none
