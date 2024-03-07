@@ -129,7 +129,13 @@ header
 @include tablet
   main
     padding: 3rem
-    margin-top: 8rem
+    margin-top: 10rem
+    min-height: calc( 100vh - 10rem)
+@include desktopS
+  main
+    padding: 5rem 10rem
+    margin-top: 15.625rem
+    min-height: calc( 100vh - 15.625rem)
 
 @keyframes gradientf
   0%

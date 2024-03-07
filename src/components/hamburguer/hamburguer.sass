@@ -31,15 +31,30 @@
     transform: rotateZ(-45deg)
     transition: all .5s
   @include tablet
+    gap: 8px
     @for $i from 1 through 9
     div:nth-child(n)
       width: 10px
       height: 10px
     #vertical
+      border-radius: 10px
       width: 50px
 
     #horizontal
+      border-radius: 10px
       width: 50px
+  @include desktopS
+    gap: 16px
+    @for $i from 1 through 9
+    div:nth-child(n)
+      width: 15px
+      height: 15px
+    #vertical
+      border-radius: 15px
+      width: 75px
+    #horizontal
+      border-radius: 15px
+      width: 75px
 
 .hamburguer:hover
   cursor: pointer

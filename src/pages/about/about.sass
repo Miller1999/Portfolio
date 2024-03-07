@@ -4,6 +4,7 @@
   .profile--image
     padding: 3rem 1rem
     width: 100%
+    max-width: 600px
     img
       width: 100%
       border-radius: 20px
@@ -18,6 +19,38 @@
           font-size: 2rem
         p
           font-size: 1.2rem
+    .skills
+      .Skills
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+        .Skills--item
+          width: 5rem
+          height: 5rem
+      img
+        width: 100%
+        .Skills--item .tooltipText
+          width: 10rem
+          top: -40%
+          font-size: medium
+  @include desktopS
+    .about__details
+      justify-content: center
+      .biography--text
+        h1
+          font-size: 3rem
+        p
+          font-size: 1.5rem
+    .skills
+      .Skills
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+        .Skills--item
+          width: 6rem
+          height: 6rem
+          img
+            width: 100%
+        .Skills--item .tooltipText
+          width: 12rem
+          top: -40%
+          font-size: larger
 .skills
   display: flex
   flex-direction: column
@@ -28,17 +61,6 @@
   display: grid
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr
   gap: 2rem 1rem
-  @include tablet
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
-    .Skills--item
-      width: 5rem
-      height: 5rem
-      img
-        width: 100%
-    .Skills--item .tooltipText
-      width: 10rem
-      top: -40%
-      font-size: medium
 
 .Skills--item
   display: flex

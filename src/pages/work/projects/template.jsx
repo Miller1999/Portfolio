@@ -5,7 +5,7 @@ const Template = ({ projects }) => {
 	const { name } = useParams();
 	const project = projects.find((project) => project.title === name);
 	return (
-		<main>
+		<main className="template">
 			<div id={project.title} className="project__img">
 				<img src={project.img} alt={project.title} />
 			</div>

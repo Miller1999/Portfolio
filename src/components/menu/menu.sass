@@ -35,10 +35,25 @@
       transform: translateY(-10px) scale(1.1)
   @include tablet
     margin-top: 10rem
+    min-height: calc( 100vh - 10rem)
+    padding-inline: 3rem
     ul
       li
         a
           font-size: 5rem
     .socialMedia
+      justify-content: center
+      gap: 5rem
       img
         width: 4rem
+  @include desktopS
+    margin-top: 15.625rem
+    min-height: calc( 100vh - 15.625rem)
+    padding-inline: 5rem
+    ul
+      li
+        a
+          font-size: 6rem
+    .socialMedia
+      img
+        width: 8rem

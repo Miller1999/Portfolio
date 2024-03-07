@@ -36,7 +36,7 @@ header
       cursor: pointer
 
   @include tablet
-    height: 160px
+    height: 10rem
     padding-inline: 2rem
     .logo
       img
@@ -46,3 +46,14 @@ header
       button
         height: 50px
         width: 50px
+  @include desktopS
+    height: 15.625rem
+    padding-inline: 4rem
+    .logo
+      img
+        width: 15.625rem
+    .container--buttons
+      gap: 4rem
+      button
+        height: 75px
+        width: 75px
