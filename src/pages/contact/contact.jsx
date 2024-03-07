@@ -4,8 +4,7 @@ import { social } from "../../info.json";
 const Contact = () => {
 	return (
 		<main>
-			<h1>Contact</h1>
-			<h2>Say Hello 👋🏽</h2>
+			<h1>Say Hello 👋🏽</h1>
 			<p>Hey, wanna talk? Hit me up on WhatsApp for an easy convo!</p>
 			<section className="contact">
 				{social.map((item) => (

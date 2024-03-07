@@ -9,12 +9,12 @@ import Layout from "./components/layout/layout";
 import Template from "./pages/work/projects/template";
 import "./style.sass";
 import { projects } from "./info.json";
-
+import "normalize.css";
 const ThemeContext = createContext();
 function App() {
 	const [showNav, setShowNav] = useState(false);
 	const [showHome, setShowHome] = useState(true);
-	const [theme, setTheme] = useState(false);
+	const [theme, setTheme] = useState(true);
 
 	return (
 		<Fragment>

@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Header from "../header/header";
 import Menu from "../menu/menu";
 import { useTheme } from "../../App";
+import Background from "../background/background";
 
 const Layout = ({ children, showNav, setShowNav, showHome, setShowHome }) => {
 	const { theme } = useTheme();
@@ -24,7 +25,10 @@ const Layout = ({ children, showNav, setShowNav, showHome, setShowHome }) => {
 				) : (
 					<Fragment></Fragment>
 				)}
-				<Fragment>{children}</Fragment>
+				<Fragment>
+					<Background />
+					{children}
+				</Fragment>
 			</div>
 		</Fragment>
 	);
