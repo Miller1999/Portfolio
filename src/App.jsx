@@ -14,7 +14,7 @@ const ThemeContext = createContext();
 function App() {
 	const [showNav, setShowNav] = useState(false);
 	const [showHome, setShowHome] = useState(true);
-	const [theme, setTheme] = useState(true);
+	const [theme, setTheme] = useState(false);
 
 	return (
 		<Fragment>

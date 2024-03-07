@@ -1,3 +1,4 @@
+@import "../../_variables"
 @mixin cloud($top, $left, $animation)
   position: absolute
   width: 65px
@@ -62,9 +63,9 @@
 
     .clouds
       position: relative
-      top: 100px
+      top: 0%
       width: 200%
-      height: 25%
+      height: 100%
   .basecloud
     background: white
     width: 65px
@@ -87,21 +88,23 @@
     width: 40px
     height: 40px
 
-  @for $i from 1 through 6
-    $top: randomPercent(70)
-    $left: randomPercent(70)
+  @for $i from 1 through 50
+    $top: randomInRangePercent(0,100)
+    $left: randomInRangePercent(0,100)
     $animation: move randomN(120) infinite
     .cloud#{$i}
       @include cloud($top , $left , $animation )
+    .cloud:nth-child(odd)
+      display: none
   .mountain1
     position: absolute
     bottom: 0px
     left: 0px
     width: 0
     height: 0
-    border-left: 160px solid transparent
-    border-right: 160px solid transparent
-    border-bottom: 320px solid gray
+    border-left: 10rem solid transparent
+    border-right: 10rem solid transparent
+    border-bottom: 20rem solid gray
     z-index: 2
   .mountain2
     position: absolute
@@ -109,43 +112,43 @@
     left: 50px
     width: 0
     height: 0
-    border-left: 150px solid transparent
-    border-right: 150px solid transparent
-    border-bottom: 300px solid black
+    border-left: 9.375rem solid transparent
+    border-right: 9.375rem solid transparent
+    border-bottom: 18.75rem solid black
   .mountain3
     position: absolute
     bottom: 0px
     left: -50px
     width: 0
     height: 0
-    border-left: 140px solid transparent
-    border-right: 140px solid transparent
-    border-bottom: 280px solid black
+    border-left: 8.75rem solid transparent
+    border-right: 8.75rem solid transparent
+    border-bottom: 17.5rem solid black
   .mountain4
     position: absolute
     bottom: 0px
     left: -60px
     width: 0
     height: 0
-    border-left: 120px solid transparent
-    border-right: 120px solid transparent
-    border-bottom: 240px solid lightgray
+    border-left: 7.5rem solid transparent
+    border-right: 7.5rem solid transparent
+    border-bottom: 15rem solid lightgray
     z-index: 2
   .mountain5
     position: absolute
     bottom: 0px
-    right: -50px
+    left: 120px
     width: 0
     height: 0
-    border-left: 130px solid transparent
-    border-right: 130px solid transparent
-    border-bottom: 260px solid lightgray
+    border-left: 8.125rem solid transparent
+    border-right: 8.125rem solid transparent
+    border-bottom: 16.25rem solid lightgray
     z-index: 2
   .peak
     position: absolute
-    border-left: 50px solid transparent
-    border-right: 50px solid transparent
-    border-bottom: 100px solid white
+    border-left: 3.125rem solid transparent
+    border-right: 3.125rem solid transparent
+    border-bottom: 6.25rem solid white
     border-radius: 50%
     top: 0px
     left: -50px
@@ -178,19 +181,19 @@
     transform-origin: top right
     animation: rightWing 1s infinite
   .bird1
-    top: 60%
+    top: 30%
     left: 50%
   .bird2
-    top: 58%
+    top: 28%
     left: 55%
   .bird3
-    top: 58%
+    top: 28%
     right: 55%
   .bird4
-    top: 55%
+    top: 25%
     left: 60%
   .bird5
-    top: 55%
+    top: 25%
     right: 60%
 
   @for $i from 1 through 50
@@ -235,7 +238,6 @@
   100%
     transform: translateY(100px)
     opacity: 0
-
 @keyframes pulse
   0%
     transform: scale(1.5)
@@ -252,11 +254,11 @@
   0%
     transform: translateX(0px) translateY(0px)
   25%
-    transform: translateX(-20px) translateY(20px)
+    transform: translateX(randomInRange(30,70)) translateY(randomInRange(30,70))
   50%
-    transform: translateX(20px) translateY(-20px)
+    transform: translateX(randomInRange(30,70)) translateY(randomInRange(-30,70))
   75%
-    transform: translateX(20px) translateY(20px)
+    transform: translateX(randomInRange(30,70)) translateY(randomInRange(30,70))
   100%
     transform: translateX(0px) translateY(0px)
 
@@ -283,3 +285,43 @@
     transform: rotateZ(-15deg)
   100%
     transform: rotateZ(0deg)
+
+@include tablet
+  .bg
+    .mountain1
+      left: 5rem
+      border-left: 20rem solid transparent
+      border-right: 20rem solid transparent
+      border-bottom: 40rem solid gray
+    .mountain2
+      left: 15rem
+      border-left: 18.75rem solid transparent
+      border-right: 18.75rem solid transparent
+      border-bottom: 37.5rem solid black
+    .mountain3
+      left: -2rem
+      border-left: 17.5rem solid transparent
+      border-right: 17.5rem solid transparent
+      border-bottom: 35rem solid black
+    .mountain4
+      left: -5rem
+      border-left: 15rem solid transparent
+      border-right: 15rem solid transparent
+      border-bottom: 30rem solid lightgray
+    .mountain5
+      left: 25rem
+      border-left: 16.25rem solid transparent
+      border-right: 16.25rem solid transparent
+      border-bottom: 32.5rem solid lightgray
+    .peak
+      border-left: 6.25rem solid transparent
+      border-right: 6.25rem solid transparent
+      border-bottom: 12.5rem solid white
+      left: -6.25rem
+  @keyframes snow
+    0%
+      transform: translateY(0px)
+      opacity: 1
+    100%
+      transform: translateY(500px)
+      opacity: 0

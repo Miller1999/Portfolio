@@ -19,7 +19,15 @@ p
       transition: all .5s
       height: 2px
       width: 0
-      background: blue
   a:hover
     .horizontal
       width: 100%
+@include tablet
+  main
+    h1
+      font-size: 4rem
+  .contact
+    gap: 4rem
+    a
+      font-size: 2rem
+      line-height: 3rem

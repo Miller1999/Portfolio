@@ -8,36 +8,13 @@ const Background = () => {
 			{theme ? (
 				<div className="bg__light">
 					<div className="clouds">
-						<div className=" cloud1">
-							<div className="basecloud"></div>
-							<div className="cloudp1"></div>
-							<div className="cloudp2"></div>
-						</div>
-						<div className=" cloud2">
-							<div className="basecloud"></div>
-							<div className="cloudp1"></div>
-							<div className="cloudp2"></div>
-						</div>
-						<div className=" cloud3">
-							<div className="basecloud"></div>
-							<div className="cloudp1"></div>
-							<div className="cloudp2"></div>
-						</div>
-						<div className=" cloud4">
-							<div className="basecloud"></div>
-							<div className="cloudp1"></div>
-							<div className="cloudp2"></div>
-						</div>
-						<div className=" cloud5">
-							<div className="basecloud"></div>
-							<div className="cloudp1"></div>
-							<div className="cloudp2"></div>
-						</div>
-						<div className=" cloud6">
-							<div className="basecloud"></div>
-							<div className="cloudp1"></div>
-							<div className="cloudp2"></div>
-						</div>
+						{Array.from({ length: 50 }, (_, index) => (
+							<div className={`cloud${index + 1}`} key={index}>
+								<div className="basecloud"></div>
+								<div className="cloudp1"></div>
+								<div className="cloudp2"></div>
+							</div>
+						))}
 						<div className="bird bird1">
 							<div className="wingl"></div>
 							<div className="wingr"></div>

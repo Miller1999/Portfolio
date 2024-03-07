@@ -1,3 +1,4 @@
+@import "../../_variables"
 .hamburguer
   position: relative
   display: grid
@@ -29,7 +30,19 @@
     opacity: 0
     transform: rotateZ(-45deg)
     transition: all .5s
+  @include tablet
+    @for $i from 1 through 9
+    div:nth-child(n)
+      width: 10px
+      height: 10px
+    #vertical
+      width: 50px
+
+    #horizontal
+      width: 50px
+
 .hamburguer:hover
+  cursor: pointer
   transform: rotateZ(45deg)
   @for $i from 1 through 9
     div:nth-child(n)

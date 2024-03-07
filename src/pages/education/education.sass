@@ -1,3 +1,5 @@
+@import "../../_variables"
+
 .tabs
   display: flex
   justify-content: space-evenly
@@ -10,7 +12,7 @@
     text-align: center
     margin-bottom: 1rem
     p
-      font-size: 12px
+      font-size: 0.75rem
 
 .Education
   display: flex
@@ -58,3 +60,19 @@
         img
           opacity: 1
           width: 4rem
+@include tablet
+  .tabs
+    div
+      p
+        font-size: 1.2rem
+  .Education
+    .Schools
+      .Schools--item
+        h3
+          font-size: larger
+        p
+          font-size: large
+      .Schools--item:hover
+        div
+          img
+            width: 8rem

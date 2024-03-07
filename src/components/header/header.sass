@@ -1,3 +1,4 @@
+@import "../../_variables"
 @mixin transparentButton()
   background: none
   border: none
@@ -31,3 +32,17 @@ header
         transition: all 1s
         position: absolute
         width: 100%
+    button:hover
+      cursor: pointer
+
+  @include tablet
+    height: 160px
+    padding-inline: 2rem
+    .logo
+      img
+        width: 10rem
+    .container--buttons
+      gap: 2rem
+      button
+        height: 50px
+        width: 50px

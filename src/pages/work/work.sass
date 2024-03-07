@@ -1,4 +1,4 @@
-
+@import "../../_variables"
 .work--title
   display: flex
   align-items: center
@@ -7,13 +7,12 @@
     width: 25px
     opacity: 0
 .work--title:hover
-
   .icon
     opacity: 1
 .work--title:last-child
   border: none
 .works__title
-  position: relative
+  position: relativep
   display: flex
   align-items: center
   h2
@@ -32,3 +31,11 @@
     opacity: 1
 .work--title:last-child
   border: none
+@include tablet
+  .work
+    padding: 3rem
+    .work--title
+      font-size: 2rem
+    .works__title
+      h2
+        font-size: 2rem

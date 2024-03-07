@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Work = () => {
 	return (
-		<main>
+		<main className="work">
 			<div className="work--title">
 				<h1>Work</h1>
 				<span>{projects.length}</span>

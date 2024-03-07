@@ -15,15 +15,13 @@ const Layout = ({ children, showNav, setShowNav, showHome, setShowHome }) => {
 					showHome={showHome}
 					setShowHome={setShowHome}
 				/>
-				{showNav ? (
+				{showNav && (
 					<Menu
 						setShowNav={setShowNav}
 						showNav={showNav}
 						showHome={showHome}
 						setShowHome={setShowHome}
 					/>
-				) : (
-					<Fragment></Fragment>
 				)}
 				<Fragment>
 					<Background />

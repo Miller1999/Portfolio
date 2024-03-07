@@ -1,11 +1,23 @@
+@import "../../_variables"
 .about
-  padding: 1rem
   width: 100%
   .profile--image
+    padding: 3rem 1rem
     width: 100%
     img
       width: 100%
       border-radius: 20px
+  @include tablet
+    .about__details
+      display: flex
+      align-items: center
+      .biography--text,.profile--image
+        width: 50%
+      .biography--text
+        h1
+          font-size: 2rem
+        p
+          font-size: 1.2rem
 .skills
   display: flex
   flex-direction: column
@@ -16,6 +28,17 @@
   display: grid
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr
   gap: 2rem 1rem
+  @include tablet
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+    .Skills--item
+      width: 5rem
+      height: 5rem
+      img
+        width: 100%
+    .Skills--item .tooltipText
+      width: 10rem
+      top: -40%
+      font-size: medium
 
 .Skills--item
   display: flex
@@ -51,13 +74,10 @@
   padding: 5px 0
   border-radius: 6px
   font-size: x-small
-
-  /* Position the tooltip text */
   position: absolute
   z-index: 1
   top: -75%
   left: -50%
-  /* Fade in tooltip */
   opacity: 0
   transition: opacity 0.3s
 
