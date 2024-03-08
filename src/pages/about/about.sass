@@ -51,6 +51,7 @@
           width: 12rem
           top: -40%
           font-size: larger
+
 .skills
   display: flex
   flex-direction: column
@@ -116,3 +117,17 @@
 .Skills--item:hover .tooltipText
   visibility: visible
   opacity: 1
+
+@include desktopB
+  .about
+    .about__details
+      .biography--text
+        h1
+          font-size: 4rem
+        p
+          font-size: 1.6rem
+    .skills
+      h2
+        font-size: 3rem
+      .Skills
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr

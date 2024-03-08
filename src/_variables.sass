@@ -16,6 +16,7 @@ $UltralightViolet: #F5E0EB
 
 $tablet: 768px
 $desktopS: 1280px
+$desktopB: 1441px
 
 @mixin tablet
   @media (min-width: $tablet)
@@ -23,4 +24,8 @@ $desktopS: 1280px
 
 @mixin desktopS
   @media (min-width: $desktopS)
+    @content
+
+@mixin desktopB
+  @media (min-width: $desktopB)
     @content

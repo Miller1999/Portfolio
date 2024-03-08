@@ -3,7 +3,7 @@ import { social } from "../../info.json";
 
 const Contact = () => {
 	return (
-		<main>
+		<main className="contact__container">
 			<h1>Say Hello 👋🏽</h1>
 			<p>Hey, wanna talk? Hit me up on WhatsApp for an easy convo!</p>
 			<section className="contact">
