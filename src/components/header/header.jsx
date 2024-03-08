@@ -34,18 +34,21 @@ const Header = ({ setShowNav, showNav, setShowHome, showHome }) => {
 				</Link>
 			</div>
 			<div className="container--buttons">
-				<button onClick={toggleTheme}>
+				<button onClick={toggleTheme} aria-label="theme button">
 					<img
 						className="icon"
 						src="https://www.svgrepo.com/show/532875/moon.svg"
+						alt="dark mode"
 					/>
 
 					<img
 						className="icon hidden"
 						src="https://www.svgrepo.com/show/532889/sun.svg"
+						alt="light mode"
 					/>
 				</button>
 				<button
+					aria-label="menu button"
 					onClick={() => {
 						setShowNav(!showNav);
 						setShowHome(!showHome);
