@@ -282,9 +282,9 @@
 			"subtitle": "Personal Website where you can see all my projects and my experience",
 			"description": "Hey there! This website? Yep, I built it from scratch, and you're right in the middle of it! It's where you'll witness all the cool stuff I'm working on as I level up my web development skills. So, expect it to change and grow along with me as I tinker with new projects and make the web more awesome!",
 			"tech": "React,Vite,SASS and React Router",
-			"repo": "https://github.com/Miller1999/Portafolio",
-			"link": "https://portafolio-six-virid.vercel.app/",
-			"img": "https://github.com/Miller1999/Portafolio/raw/main/assets/Desktop.png",
+			"repo": "https://github.com/Miller1999/Portfolio",
+			"link": "https://miller-arias-dev.vercel.app/",
+			"img": "https://github.com/Miller1999/Portfolio/assets/22383830/485f6e7e-3c43-4f7c-8e2d-4260cdcba177",
 			"date": "2024"
 		},
 		{
@@ -305,6 +305,36 @@
 			"repo": "https://github.com/Miller1999/Shortly",
 			"link": "https://shortly-gamma-azure.vercel.app/",
 			"img": "https://i.ibb.co/YBrvjY6/shortly.webp",
+			"date": "2024"
+		},
+		{
+			"title": "Chat app CSS Illustration",
+			"subtitle": "Build from scratch using CSS",
+			"description": "Embarking on this captivating project pushed my CSS skills to new heights as I creatively 'draw' everything using SASS.",
+			"tech": "HTML and SASS",
+			"repo": "https://github.com/Miller1999/chat-illustration",
+			"link": "https://chat-illustration-blush.vercel.app/",
+			"img": "https://github.com/Miller1999/chat-illustration/assets/22383830/b7662b8b-353c-4591-93f3-608beca3c61b",
+			"date": "2024"
+		},
+		{
+			"title": "Laboratory My Day App",
+			"subtitle": "Laboratory on Platzi to improve my JS skills",
+			"description": "Diving into this intriguing challenge, I encountered a plethora of issues waiting to be conquered. From crafting a seamless to-do list to mastering the intricacies of local storage, each obstacle presented an opportunity for growth and innovation. My journey was not just about problem-solving; it was about embracing the thrill of unraveling complexities and turning them into triumphs.",
+			"tech": "HTML, CSS and JS",
+			"repo": "https://github.com/Miller1999/laboratorio-mydayapp-js",
+			"link": "https://mydayapp.vercel.app/",
+			"img": "https://i.imgur.com/et5mmr7.png",
+			"date": "2024"
+		},
+		{
+			"title": "Social links profile",
+			"subtitle": "All my links in one place",
+			"description": "Are you ready to connect? Your gateway to reaching out and sparking conversations with me awaits right here. Explore my array of social media platforms, where each click brings you closer to initiating a dialogue. Don't hesitate to drop a hello 👋🏽—I'm eagerly anticipating our interaction!",
+			"tech": "HTML and CSS",
+			"repo": "https://github.com/Miller1999/SocialHub",
+			"link": "https://social-hub-ivory.vercel.app/",
+			"img": "https://github.com/Miller1999/SocialHub/assets/22383830/43e239a8-3698-44ca-ad74-82564f945156",
 			"date": "2024"
 		},
 		{
