@@ -96,7 +96,10 @@
 			"title": "Python",
 			"img": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
 		},
-
+		{
+			"title": "Web Components",
+			"img": "https://cdn.worldvectorlogo.com/logos/web-components.svg"
+		},
 		{
 			"title": "English",
 			"img": "https://cdn.worldvectorlogo.com/logos/usa-4.svg"
@@ -163,6 +166,84 @@
 			"date": "May 2023",
 			"type": "Languages"
 		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso Básico de Web Components con JavaScript",
+			"institution": "Platzi",
+			"date": "April 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Accesibilidad Web",
+			"institution": "Platzi",
+			"date": "April 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Flujo de Desarrollo Moderno CodeStream ",
+			"institution": "Platzi",
+			"date": "April 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Fundamentos de Pruebas de Software",
+			"institution": "Platzi",
+			"date": "April 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Manipulación del DOM",
+			"institution": "Platzi",
+			"date": "April 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Vite.js",
+			"institution": "Platzi",
+			"date": "April 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de React.js: Navegación con React Router",
+			"institution": "Platzi",
+			"date": "March 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Optimización Web",
+			"institution": "Platzi",
+			"date": "April 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Fundamentos de Ingeniería de Software ",
+			"institution": "Platzi",
+			"date": "March 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Fundamentos de TypeScript ",
+			"institution": "Platzi",
+			"date": "January 2024",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de TypeScript: Tipos Avanzados y Funciones",
+			"institution": "Platzi",
+			"date": "January 2024",
+			"type": "Development"
+		},
+
 		{
 			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
 			"title": "Formacion Python, Data Science en OCI y Oracle Analytics",
@@ -285,6 +366,36 @@
 			"repo": "https://github.com/Miller1999/Portfolio",
 			"link": "https://miller-arias-dev.vercel.app/",
 			"img": "https://github.com/Miller1999/Portfolio/assets/22383830/485f6e7e-3c43-4f7c-8e2d-4260cdcba177",
+			"date": "2024"
+		},
+		{
+			"title": "CountDown Timer",
+			"subtitle": "A basic timer to work with css and js vanilla",
+			"description": "Countdown companion designed to keep you on track and excited for upcoming events, milestones, and deadlines. In this case, is just demostrative so you can't manage time just see how it works",
+			"tech": "HTML, CSS and JS",
+			"repo": "https://github.com/Miller1999/countdown-timer",
+			"link": "https://countdown-timer-sandy-two.vercel.app/",
+			"img": "https://private-user-images.githubusercontent.com/22383830/325469290-e92d42d1-e495-4e2d-a2b1-bfaccfcb30a6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQwMjE0MTYsIm5iZiI6MTcxNDAyMTExNiwicGF0aCI6Ii8yMjM4MzgzMC8zMjU0NjkyOTAtZTkyZDQyZDEtZTQ5NS00ZTJkLWEyYjEtYmZhY2NmY2IzMGE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDI1VDA0NTgzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjODVmYWNlOGJmMzczMDU0YzJmYjc0YTM5ZjAyYTQyNTM4MjBiNjlhMDYwZjRhYTI3YTljMDM4YmUwM2FkN2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6j7ZA1gMowi0B8w42EkJ-I3j8IU7FAeAz7O1jw4OUDU",
+			"date": "2024"
+		},
+		{
+			"title": "TaskMaster",
+			"subtitle": "The app you need to manage your todos",
+			"description": "TaskMaster is a comprehensive todo application designed to help users efficiently manage their tasks and boost productivity. With its intuitive interface and powerful features, TaskMaster simplifies task organization and prioritization, allowing users to stay focused and achieve their goals effectively. ",
+			"tech": "React,Vite and SASS",
+			"repo": "https://github.com/Miller1999/TaskMaster",
+			"link": "https://taskmaster-pi-mocha.vercel.app/",
+			"img": "https://private-user-images.githubusercontent.com/22383830/322178296-5cb3474f-71f0-429b-b145-96715c23ad02.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQwMjE0MjAsIm5iZiI6MTcxNDAyMTEyMCwicGF0aCI6Ii8yMjM4MzgzMC8zMjIxNzgyOTYtNWNiMzQ3NGYtNzFmMC00MjliLWIxNDUtOTY3MTVjMjNhZDAyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDI1VDA0NTg0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg0NjE3YTgzMmQ4ZmQxNjdkOGYzN2Y1ZDgxMTBmYjk1NmExMDE2NWI3NTFjNzZkMDU5ZDRiYWUwN2MwMGZjZDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.wwrFaTqk0dCTQ0WWmye57NvHadcprfYdwOiQHWxIWAE",
+			"date": "2024"
+		},
+		{
+			"title": "IP Tracker",
+			"subtitle": "Search your favourite domains and ips",
+			"description": "Your all-in-one solution for monitoring and tracking IPs and domains with ease and precision. With TrackNet, gain valuable insights into online activities, security threats, and domain ownership like never before.",
+			"tech": "React, Vite, SASS, LeafletJS and IP Geolocation API",
+			"repo": "https://github.com/Miller1999/ipTracker",
+			"link": "https://ip-tracker-roan-delta.vercel.app/",
+			"img": "https://github.com/Miller1999/ipTracker/raw/main/src/assets/IpTracker.png",
 			"date": "2024"
 		},
 		{
