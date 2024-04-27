@@ -243,7 +243,111 @@
 			"date": "January 2024",
 			"type": "Development"
 		},
-
+		{
+			"logo": "https://cdn.worldvectorlogo.com/logos/coursera.svg",
+			"title": "Python Data Structures",
+			"institution": "Coursera",
+			"date": "December 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso Básico de Tailwind 2 y 3",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de API REST con Javascript: Ejemplos con APIs reales",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de API REST con Javascript: Fundamentos",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de API REST con Javascript: Performance y Usabilidad",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Animaciones con CSS",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Complejidad Algorítmica con JavaScript",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Diseño para Developers",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Estructuras de Datos con JavaScript",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Fundamentos de Sass: Crea tu Primera Landing Page",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Responsive Design: Maquetación Mobile First",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso de Sistemas de Diseño Efectivos",
+			"institution": "Platzi",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://cdn.worldvectorlogo.com/logos/coursera.svg",
+			"title": "Programming for Everybody (Getting Started with Python)",
+			"institution": "Coursera",
+			"date": "November 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Curso Intermedio de Programación Orientada a Objetos en JavaScript",
+			"institution": "Platzi",
+			"date": "October 2023",
+			"type": "Development"
+		},
+		{
+			"logo": "https://static.platzi.com/static/images/footer/logo.png",
+			"title": "Clean Code y Buenas Prácticas con JavaScript",
+			"institution": "Platzi",
+			"date": "October 2023",
+			"type": "Development"
+		},
 		{
 			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
 			"title": "Formacion Python, Data Science en OCI y Oracle Analytics",
