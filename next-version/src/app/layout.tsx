@@ -1,4 +1,6 @@
-import Header from "@/components/shared/Header/Header";
+import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Header/Header";
+import { MenuProvider } from "@/Context/MenuContext";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,10 +16,11 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
-				<Header />
-				<aside>Menu</aside>
+				<MenuProvider>
+					<Header />
+				</MenuProvider>
 				{children}
-				<footer>Footer</footer>
+				<Footer />
 			</body>
 		</html>
 	);
