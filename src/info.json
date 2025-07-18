@@ -1,606 +1,161 @@
 {
-	"social": [
+	"Projects": [
 		{
-			"name": "Github",
-			"logo": "https://www.svgrepo.com/show/450156/github.svg",
-			"link": "https://github.com/Miller1999"
-		},
-		{
-			"name": "Linkedin",
-			"logo": "https://www.svgrepo.com/show/452051/linkedin.svg",
-			"link": "https://www.linkedin.com/in/miller-javier-arias-quintero/"
-		},
-		{
-			"name": "Whatsapp",
-			"logo": "https://www.svgrepo.com/show/452133/whatsapp.svg",
-			"link": "whatsapp://send?phone=+573138220202"
-		},
-		{
-			"name": "Correo",
-			"logo": "https://www.svgrepo.com/show/477054/email-download.svg",
-			"link": "mailto:millerjavierarias@gmail.com"
-		},
-
-		{
-			"name": "Resume CV",
-			"logo": "https://www.svgrepo.com/show/281704/curriculum-resume.svg",
-			"link": "https://drive.google.com/file/d/1VNXyDn70KhxDBljKC8pFqNJeT0JuH6eN/view?usp=sharing"
+			"title": "Algobot",
+			"description": "A simple bot to organize students into courses",
+			"techs": [
+				{
+					"name": "Discord.js",
+					"src": ""
+				}
+			],
+			"github": "",
+			"live": "",
+			"results": "Improve the organization and students-teacher communication in 30%",
+			"src": ""
 		}
 	],
-	"skills": [
+
+	"Skills": [
 		{
 			"title": "HTML",
-			"img": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "CSS",
-			"img": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "JS",
-			"img": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
-		},
-		{
-			"title": "Git",
-			"img": "https://cdn.worldvectorlogo.com/logos/git-icon.svg"
-		},
-		{
-			"title": "Github",
-			"img": "https://www.svgrepo.com/show/450156/github.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "React",
-			"img": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "Vite.js",
-			"img": "https://cdn.worldvectorlogo.com/logos/vitejs.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/vitejs.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "NextJs",
-			"img": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
-		},
-		{
-			"title": "Node.js",
-			"img": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "Tailwind CSS",
-			"img": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
-		},
-		{
-			"title": "MySQL",
-			"img": "https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
-		},
-		{
-			"title": "PostgreSQL",
-			"img": "https://cdn.worldvectorlogo.com/logos/postgresql.svg"
-		},
-		{
-			"title": "JWT",
-			"img": "https://cdn.worldvectorlogo.com/logos/jwt-3.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "Styled Components",
-			"img": "https://cdn.worldvectorlogo.com/logos/styled-components-1.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/styled-components-1.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "SASS",
-			"img": "https://cdn.worldvectorlogo.com/logos/sass-1.svg"
-		},
-		{
-			"title": "TypeScript",
-			"img": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
-		},
-		{
-			"title": "Python",
-			"img": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/sass-1.svg",
+			"category": "Frontend"
 		},
 		{
 			"title": "Web Components",
-			"img": "https://cdn.worldvectorlogo.com/logos/web-components.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/web-components.svg",
+			"category": "Frontend"
+		},
+
+		{
+			"title": "Node.js",
+			"img": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+			"category": "Backend"
 		},
 		{
+			"title": "JWT",
+			"img": "https://cdn.worldvectorlogo.com/logos/jwt-3.svg",
+			"category": "Backend"
+		},
+
+		{
+			"title": "MySQL",
+			"img": "https://cdn.worldvectorlogo.com/logos/mysql-6.svg",
+			"category": "Base de Datos"
+		},
+		{
+			"title": "PostgreSQL",
+			"img": "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+			"category": "Base de Datos"
+		},
+
+		{
+			"title": "Python",
+			"img": "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+			"category": "Lenguajes"
+		},
+		{
+			"title": "TypeScript",
+			"img": "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+			"category": "Lenguajes"
+		},
+
+		{
+			"title": "Git",
+			"img": "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+			"category": "Herramientas"
+		},
+		{
+			"title": "Github",
+			"img": "https://www.svgrepo.com/show/450156/github.svg",
+			"category": "Herramientas"
+		},
+
+		{
 			"title": "English",
-			"img": "https://cdn.worldvectorlogo.com/logos/usa-4.svg"
+			"img": "https://cdn.worldvectorlogo.com/logos/usa-4.svg",
+			"category": "Soft Skills"
 		},
 		{
 			"title": "Time Management",
-			"img": "https://www.svgrepo.com/show/530409/time.svg"
+			"img": "https://www.svgrepo.com/show/530409/time.svg",
+			"category": "Soft Skills"
 		},
 		{
 			"title": "Communication",
-			"img": "https://www.svgrepo.com/show/407507/speaking-head.svg"
+			"img": "https://www.svgrepo.com/show/407507/speaking-head.svg",
+			"category": "Soft Skills"
 		},
 		{
 			"title": "Quick Learning",
-			"img": "https://www.svgrepo.com/show/428746/poster-learn-communication.svg"
+			"img": "https://www.svgrepo.com/show/428746/poster-learn-communication.svg",
+			"category": "Soft Skills"
 		},
 		{
 			"title": "Proactivity",
-			"img": "https://www.svgrepo.com/show/489243/creativity-1.svg"
+			"img": "https://www.svgrepo.com/show/489243/creativity-1.svg",
+			"category": "Soft Skills"
 		},
 		{
 			"title": "Creativity",
-			"img": "https://www.svgrepo.com/show/506928/des-palette.svg"
+			"img": "https://www.svgrepo.com/show/506928/des-palette.svg",
+			"category": "Soft Skills"
 		},
 		{
 			"title": "Patience",
-			"img": "https://www.svgrepo.com/show/283132/sand-clock.svg"
+			"img": "https://www.svgrepo.com/show/283132/sand-clock.svg",
+			"category": "Soft Skills"
 		},
 		{
 			"title": "Leadership",
-			"img": "https://www.svgrepo.com/show/105340/leadership.svg"
+			"img": "https://www.svgrepo.com/show/105340/leadership.svg",
+			"category": "Soft Skills"
 		},
 		{
 			"title": "TeamWork",
-			"img": "https://www.svgrepo.com/show/301080/team.svg"
-		}
-	],
-	"education": [
-		{
-			"logo": "https://seeklogo.com/images/U/universidad-nacional-de-colombia-logo-1B5A327344-seeklogo.com.png",
-			"title": "Electronic Engineering",
-			"institution": "National University of colombia",
-			"date": "2016 - present",
-			"type": "Professional"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Full Stack Developer con JavaScript",
-			"institution": "Platzi",
-			"date": "September 2023",
-			"type": "Professional"
-		},
-		{
-			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
-			"title": "FrontEnd Developer",
-			"institution": "Alura",
-			"date": "June 2023",
-			"type": "Professional"
-		},
-		{
-			"logo": "https://www.colombobogota.edu.co/wp-content/uploads/2020/06/Logo-Colombo.png",
-			"title": "C1 English Level",
-			"institution": "Centro Colombo Americano",
-			"date": "May 2023",
-			"type": "Languages"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso Básico de Web Components con JavaScript",
-			"institution": "Platzi",
-			"date": "April 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Accesibilidad Web",
-			"institution": "Platzi",
-			"date": "April 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Flujo de Desarrollo Moderno CodeStream ",
-			"institution": "Platzi",
-			"date": "April 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Fundamentos de Pruebas de Software",
-			"institution": "Platzi",
-			"date": "April 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Manipulación del DOM",
-			"institution": "Platzi",
-			"date": "April 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Vite.js",
-			"institution": "Platzi",
-			"date": "April 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de React.js: Navegación con React Router",
-			"institution": "Platzi",
-			"date": "March 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Optimización Web",
-			"institution": "Platzi",
-			"date": "April 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Fundamentos de Ingeniería de Software ",
-			"institution": "Platzi",
-			"date": "March 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Fundamentos de TypeScript ",
-			"institution": "Platzi",
-			"date": "January 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de TypeScript: Tipos Avanzados y Funciones",
-			"institution": "Platzi",
-			"date": "January 2024",
-			"type": "Development"
-		},
-		{
-			"logo": "https://cdn.worldvectorlogo.com/logos/coursera.svg",
-			"title": "Python Data Structures",
-			"institution": "Coursera",
-			"date": "December 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso Básico de Tailwind 2 y 3",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de API REST con Javascript: Ejemplos con APIs reales",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de API REST con Javascript: Fundamentos",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de API REST con Javascript: Performance y Usabilidad",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Animaciones con CSS",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Complejidad Algorítmica con JavaScript",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Diseño para Developers",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Estructuras de Datos con JavaScript",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Fundamentos de Sass: Crea tu Primera Landing Page",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Responsive Design: Maquetación Mobile First",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Sistemas de Diseño Efectivos",
-			"institution": "Platzi",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://cdn.worldvectorlogo.com/logos/coursera.svg",
-			"title": "Programming for Everybody (Getting Started with Python)",
-			"institution": "Coursera",
-			"date": "November 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso Intermedio de Programación Orientada a Objetos en JavaScript",
-			"institution": "Platzi",
-			"date": "October 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Clean Code y Buenas Prácticas con JavaScript",
-			"institution": "Platzi",
-			"date": "October 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
-			"title": "Formacion Python, Data Science en OCI y Oracle Analytics",
-			"institution": "Alura",
-			"date": "October 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Backend con Node.js: Base de Datos con PostgreSQL",
-			"institution": "Platzi",
-			"date": "September 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
-			"title": "Formacion SQL con MySQL",
-			"institution": "Alura",
-			"date": "August 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Fundamentos de las bases de datos",
-			"institution": "Platzi",
-			"date": "August 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de Backend con Node.js: API REST con Express.js",
-			"institution": "Platzi",
-			"date": "August 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de React.js con Vite.js y TailwindCSS",
-			"institution": "Platzi",
-			"date": "August 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de NPM",
-			"institution": "Platzi",
-			"date": "July 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso React.js",
-			"institution": "Platzi",
-			"date": "July 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
-			"title": "Formación React.js",
-			"institution": "Alura",
-			"date": "June 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso FrontEnd Developer",
-			"institution": "Platzi",
-			"date": "June 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso Profesional de Git y Github",
-			"institution": "Platzi",
-			"date": "February 2023",
-			"type": "Development"
-		},
-		{
-			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
-			"title": "Emprendimiento",
-			"institution": "Alura",
-			"date": "May 2023",
-			"type": "Soft Skills"
-		},
-		{
-			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
-			"title": "Business Agility",
-			"institution": "Alura",
-			"date": "February 2023",
-			"type": "Soft Skills"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de productividad y organización",
-			"institution": "Platzi",
-			"date": "January 2023",
-			"type": "Soft Skills"
-		},
-		{
-			"logo": "https://static.platzi.com/static/images/footer/logo.png",
-			"title": "Curso de gestión efectiva del tiempo",
-			"institution": "Platzi",
-			"date": "January 2023",
-			"type": "Soft Skills"
-		},
-		{
-			"logo": "https://caelum-online-public.s3.amazonaws.com/ESP-WD-43-alura-latam-ebook-html-css-javascript/alura_latam_logos-imagens/ALURA_LATAM_LOGO_LIGHT.png",
-			"title": "Desarrollo Personal",
-			"institution": "Alura",
-			"date": "January 2023",
-			"type": "Soft Skills"
-		}
-	],
-	"projects": [
-		{
-			"title": "Portfolio",
-			"subtitle": "Personal Website where you can see all my projects and my experience",
-			"description": "Hey there! This website? Yep, I built it from scratch, and you're right in the middle of it! It's where you'll witness all the cool stuff I'm working on as I level up my web development skills. So, expect it to change and grow along with me as I tinker with new projects and make the web more awesome!",
-			"tech": "React,Vite,SASS and React Router",
-			"repo": "https://github.com/Miller1999/Portfolio",
-			"link": "https://miller-arias-dev.vercel.app/",
-			"img": "https://github.com/Miller1999/Portfolio/assets/22383830/485f6e7e-3c43-4f7c-8e2d-4260cdcba177",
-			"date": "2024"
-		},
-		{
-			"title": "CountDown Timer",
-			"subtitle": "A basic timer to work with css and js vanilla",
-			"description": "Countdown companion designed to keep you on track and excited for upcoming events, milestones, and deadlines. In this case, is just demostrative so you can't manage time just see how it works",
-			"tech": "HTML, CSS and JS",
-			"repo": "https://github.com/Miller1999/countdown-timer",
-			"link": "https://countdown-timer-sandy-two.vercel.app/",
-			"img": "https://github.com/Miller1999/countdown-timer/assets/22383830/e92d42d1-e495-4e2d-a2b1-bfaccfcb30a6",
-			"date": "2024"
-		},
-		{
-			"title": "TaskMaster",
-			"subtitle": "The app you need to manage your todos",
-			"description": "TaskMaster is a comprehensive todo application designed to help users efficiently manage their tasks and boost productivity. With its intuitive interface and powerful features, TaskMaster simplifies task organization and prioritization, allowing users to stay focused and achieve their goals effectively. ",
-			"tech": "React,Vite and SASS",
-			"repo": "https://github.com/Miller1999/TaskMaster",
-			"link": "https://taskmaster-pi-mocha.vercel.app/",
-			"img": "https://github.com/Miller1999/TaskMaster/assets/22383830/5cb3474f-71f0-429b-b145-96715c23ad02",
-			"date": "2024"
-		},
-		{
-			"title": "IP Tracker",
-			"subtitle": "Search your favourite domains and ips",
-			"description": "Your all-in-one solution for monitoring and tracking IPs and domains with ease and precision. With TrackNet, gain valuable insights into online activities, security threats, and domain ownership like never before.",
-			"tech": "React, Vite, SASS, LeafletJS and IP Geolocation API",
-			"repo": "https://github.com/Miller1999/ipTracker",
-			"link": "https://ip-tracker-roan-delta.vercel.app/",
-			"img": "https://github.com/Miller1999/ipTracker/raw/main/src/assets/IpTracker.png",
-			"date": "2024"
-		},
-		{
-			"title": "JobNest",
-			"subtitle": "Streamlining Job Hunting: Your Personalized Job Search Companion",
-			"description": "Discover JobNest, the ultimate tool for streamlining your job search. With customizable filters and a sleek interface, find your next career move effortlessly. Powered by JavaScript, JobNest is your go-to platform for efficient job hunting.",
-			"tech": "React,Vite and SASS",
-			"repo": "https://github.com/Miller1999/JobNest",
-			"link": "https://job-nest-three.vercel.app/",
-			"img": "https://i.ibb.co/g46n0YX/jobnest.webp",
-			"date": "2024"
-		},
-		{
-			"title": "Shortly",
-			"subtitle": "Link Shortening Made Simple",
-			"description": "Introducing Shortly, your solution for quick and hassle-free link shortening. Built with React and integrated with the cleanURI API, Shortly empowers you to shorten links with ease. Simplify sharing and tracking links effortlessly with Shortly. Your shortcut to seamless web navigation.",
-			"tech": "React,Vite and SASS",
-			"repo": "https://github.com/Miller1999/Shortly",
-			"link": "https://shortly-gamma-azure.vercel.app/",
-			"img": "https://i.ibb.co/YBrvjY6/shortly.webp",
-			"date": "2024"
-		},
-		{
-			"title": "Chat app CSS Illustration",
-			"subtitle": "Build from scratch using CSS",
-			"description": "Embarking on this captivating project pushed my CSS skills to new heights as I creatively 'draw' everything using SASS.",
-			"tech": "HTML and SASS",
-			"repo": "https://github.com/Miller1999/chat-illustration",
-			"link": "https://chat-illustration-blush.vercel.app/",
-			"img": "https://github.com/Miller1999/chat-illustration/assets/22383830/b7662b8b-353c-4591-93f3-608beca3c61b",
-			"date": "2024"
-		},
-		{
-			"title": "Laboratory My Day App",
-			"subtitle": "Laboratory on Platzi to improve my JS skills",
-			"description": "Diving into this intriguing challenge, I encountered a plethora of issues waiting to be conquered. From crafting a seamless to-do list to mastering the intricacies of local storage, each obstacle presented an opportunity for growth and innovation. My journey was not just about problem-solving; it was about embracing the thrill of unraveling complexities and turning them into triumphs.",
-			"tech": "HTML, CSS and JS",
-			"repo": "https://github.com/Miller1999/laboratorio-mydayapp-js",
-			"link": "https://mydayapp.vercel.app/",
-			"img": "https://i.imgur.com/et5mmr7.png",
-			"date": "2024"
-		},
-		{
-			"title": "Social links profile",
-			"subtitle": "All my links in one place",
-			"description": "Are you ready to connect? Your gateway to reaching out and sparking conversations with me awaits right here. Explore my array of social media platforms, where each click brings you closer to initiating a dialogue. Don't hesitate to drop a hello 👋🏽—I'm eagerly anticipating our interaction!",
-			"tech": "HTML and CSS",
-			"repo": "https://github.com/Miller1999/SocialHub",
-			"link": "https://social-hub-ivory.vercel.app/",
-			"img": "https://github.com/Miller1999/SocialHub/assets/22383830/43e239a8-3698-44ca-ad74-82564f945156",
-			"date": "2024"
-		},
-		{
-			"title": "EarthQuestion",
-			"subtitle": "Quiz about flags, capitals and countries around the world",
-			"description": "This app is specifically designed for individuals who are passionate about flags and maps. It serves as an excellent tool for skill enhancement and friendly challenges. Currently, it is being utilized in an educational setting to support certain classes, facilitating skill development among students. The app was developed using React and Vite, incorporating Tailwind CSS, and it relies on a public API to access country information.",
-			"tech": "React, Vite and Tailwind",
-			"repo": "https://github.com/Miller1999/EarthQuesTion",
-			"link": "https://earthquestion.vercel.app/",
-			"img": "https://user-images.githubusercontent.com/22383830/264172609-c15f8c10-0817-44b4-b692-04d3fc43912e.png",
-			"date": "2023"
-		},
-		{
-			"title": "QuoteVerse",
-			"subtitle": "Get inspire",
-			"description": "Do you want to hear the wisdom of famous people or seek inspiration? Allow me to introduce QuoteVerse, where you can discover a plethora of quotes from some of the most prominent and accomplished individuals in the world, including Steve Jobs, Albert Einstein, Winston Churchill, and Jeanne Moreau. This platform was crafted using React and Vite, incorporating Tailwind CSS and an API to provide access to quotes and their respective authors.",
-			"tech": "React, Vite and Tailwind",
-			"repo": "https://github.com/Miller1999/QuoteVerse",
-			"link": "https://quote-verse-phi.vercel.app/",
-			"img": "https://user-images.githubusercontent.com/22383830/261489316-e7ac437d-4ef3-4f62-8595-c9178c12d06a.png",
-			"date": "2023"
-		},
-		{
-			"title": "ToDoGo",
-			"subtitle": "Organize yourself!!!",
-			"description": "This app is designed to assist you in your daily routine. You can easily add your daily tasks, filter them by completed or pending status, and even delete all tasks when they are no longer needed. The app is developed using React, Vite, Tailwind, and Material-UI (MUI).",
-			"tech": "React, Vite, Tailwind and MUI",
-			"repo": "https://github.com/Miller1999/ToDoGo",
-			"link": "https://to-do-go-ten.vercel.app/",
-			"img": "https://user-images.githubusercontent.com/22383830/257082162-fcb915b5-66b0-4764-acb6-8f726300cf5a.png",
-			"date": "2023"
-		},
-		{
-			"title": "House Finder",
-			"subtitle": "Airbnb App",
-			"description": "Welcome to our website, where you can search for houses in Finland using our database. Think of it as your own mini Airbnb, tailored specifically for finding accommodations in Finland. Whether you're planning a trip, looking for a place to stay, or exploring various housing options, our platform is here to help you discover your ideal living space in this beautiful Scandinavian country.",
-			"tech": "React, Styled components, UUID, MUI and Axios",
-			"repo": "https://github.com/Miller1999/HouseFinder",
-			"link": "https://house-finder-eight.vercel.app/",
-			"img": "https://user-images.githubusercontent.com/22383830/256976042-3c22c404-627a-4dbf-ab41-be120778e338.png",
-			"date": "2023"
-		},
-		{
-			"title": "Enkripto",
-			"subtitle": "Hide your messages",
-			"description": "This is an app that allows you to encrypt your messages and decode your messages, using some keys that are in the repository",
-			"tech": "HTML, CSS and JS",
-			"repo": "https://github.com/Miller1999/Encripto",
-			"link": "https://encripto.vercel.app",
-			"img": "https://github.com/Miller1999/Encripto/raw/main/Imagenes/imagen_2023-01-22_101342125.png",
-			"date": "2023"
+			"img": "https://www.svgrepo.com/show/301080/team.svg",
+			"category": "Soft Skills"
 		}
 	]
 }
