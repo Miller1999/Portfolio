@@ -41,6 +41,13 @@ section {
 	margin: auto;
 }
 
+.category {
+	img {
+		width: 24px;
+		height: 24px;
+	}
+}
+
 @media (min-width: 768px) {
 	nav {
 		display: flex;
