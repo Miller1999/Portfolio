@@ -1,10 +1,13 @@
-export const skillCategory = (category) => {
+export const skillCategory = (categoryName, skills) => {
 	return `
-        <h4>${category[0]?.category}</h4>
-        <div class="category">
-        ${category
-					.map((cat) => `<img src="${cat.img}" alt="${cat.title}" />`)
-					.join("")}
-        </div>
-    `;
+    <h4>${categoryName}</h4>
+    <div class="category">
+      ${skills
+				.map(
+					(skill) =>
+						`<img src="${skill.img}" alt="${skill.title}" title="${skill.title}" />`
+				)
+				.join("")}
+    </div>
+  `;
 };
