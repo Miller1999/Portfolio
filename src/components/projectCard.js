@@ -1,7 +1,7 @@
 export const projectCard = (
 	title,
 	description,
-	techs,
+	tech,
 	github,
 	live,
 	results,
@@ -12,11 +12,7 @@ export const projectCard = (
             <div>
                 <h3>${title}</h3>
                 <p>${description}</p>
-                <ul>
-                ${techs.map((tech) => {
-									return `<li>${tech.src} - ${tech.name}</li>`;
-								})}
-                </ul>
+                <p>${tech}</p>
                 <a href=${github}>Github</a>
                 <p>${results}</p>
                 <img src=${image} alt=${title}/>

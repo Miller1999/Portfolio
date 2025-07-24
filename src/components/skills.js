@@ -13,7 +13,7 @@ const groupByCategory = Skills.reduce((acc, skill) => {
 export const skills = () => {
 	return `
     <section>
-      <h3>Skills</h3>
+      <h2>Skills</h2>
       ${Object.entries(groupByCategory)
 				.map(([categoryName, skills]) => skillCategory(categoryName, skills))
 				.join("")}

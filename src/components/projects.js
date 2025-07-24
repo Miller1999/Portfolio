@@ -8,11 +8,11 @@ export function projects() {
 									return projectCard(
 										project.title,
 										project.description,
-										project.techs,
+										project.tech,
 										project.github,
 										project.live,
 										project.results,
-										project.image
+										project.img
 									);
 								})}
     
