@@ -12,8 +12,229 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Miller Arias Dev</title>
 	</head>
-	<body>
-		<div id="app"></div>
+	<body class="">
+		<header>
+			<div class="header__container">
+				<h1>Miller Arias</h1>
+				<div class="menu__container">
+					<div class="menu__toggle">
+						<button class="transparent-button">
+							<ion-icon
+								name="sunny-outline"
+								class="light-icon hidden"
+								size="large"
+							></ion-icon>
+							<ion-icon
+								name="moon-outline"
+								class="dark-icon"
+								size="large"
+							></ion-icon>
+						</button>
+					</div>
+					<div class="menu__toggle">
+						<button class="transparent-button" id="menu">
+							<ion-icon
+								name="menu-outline"
+								size="large"
+								id="hamburger"
+							></ion-icon>
+							<ion-icon
+								name="close-outline"
+								size="large"
+								class="hidden"
+								id="close"
+							></ion-icon>
+						</button>
+					</div>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#inicio">Home</a></li>
+					<li><a href="#proyectos">Projects</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="hero" class="hero">
+				<div class="hero__content">
+					<h2>Miller Arias - Frontend Developer</h2>
+					<p>
+						I'm a passionate Frontend Developer with a strong background in
+						JavaScript, HTML, CSS, and React. I'm excited to bring my skills and
+						experience to the table and help you achieve your goals.
+					</p>
+					<button>
+						<a
+							href="https://drive.google.com/file/d/1eDDdUEPttIfmsRzJT8X-bYnHsTtbdBeK/view?usp=sharing"
+							target="_blank"
+							>Download CV</a
+						>
+					</button>
+				</div>
+				<div class="hero__image">
+					<img
+						src="https://avatars.githubusercontent.com/u/22383830?v=4"
+						alt="Miller Arias"
+					/>
+				</div>
+			</section>
+			<section id="projects">
+				<h2>Highlight projects</h2>
+				<div class="projects__container"></div>
+			</section>
+			<section id="skills">
+				<h2>Skills</h2>
+				<div class="skills__container"></div>
+			</section>
+			<section id="experience">
+				<h2>Experience</h2>
+				<div class="experience__container">
+					<div class="experience__card">
+						<div>
+							<img
+								src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI5LjYgMEgwdjI5LjY1Nmg3LjRMMTQuOCAzN2w3LjQtNy4zNDRoNy40VjB6IiBmaWxsPSIjNjAyQjdBIi8+PHBhdGggZD0ibTIwLjIyMiAyMy42NTQtMS42Ny0zLjg5N2gtNy41MDVsLTEuNjQyIDMuODk3SDUuOTlsNy4xNzgtMTguMzY4aDMuMjYybDcuMTggMTguMzY4aC0zLjM4OHptLTguMTk2LTYuODgzaDUuNTQ2TDE0LjggOS4wNTFsLTIuNzczIDcuNzJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"
+								alt="Algorithmics"
+							/>
+							<h3>Algorithmics – Programming Teacher</h3>
+						</div>
+						<p>March 2025 – Present</p>
+						<h4>Responsibilities:</h4>
+						<ul>
+							<li>
+								📝 Deliver programming lessons and introduce students to digital
+								tools and logic-based thinking
+							</li>
+							<li>
+								⚙️ Guide students through the development of personal coding
+								projects
+							</li>
+							<li>📄 Prepare and send progress reports to parents</li>
+							<li>
+								📚 Conduct onboarding and intro classes to support new student
+								enrollment
+							</li>
+							<li>
+								💵 Present course benefits to parents and assist in upselling
+								future modules
+							</li>
+						</ul>
+						<h4>Technologies:</h4>
+						<ul class="experience__tech">
+							<li>
+								<img
+									src="https://cdn.worldvectorlogo.com/logos/unity-69.svg"
+									alt="Unity"
+								/>
+							</li>
+							<li>
+								<img
+									src="https://cdn.worldvectorlogo.com/logos/roblox-studio-1.svg"
+									alt="Roblox Studio"
+								/>
+							</li>
+							<li>
+								<img
+									src="https://cdn.worldvectorlogo.com/logos/python-5.svg"
+									alt="Python"
+								/>
+							</li>
+							<li>
+								<img
+									src="https://cdn.worldvectorlogo.com/logos/scratch-cat.svg"
+									alt="Scratch"
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="education">
+				<h2>Education</h2>
+				<div class="education__container">
+					<div class="education__card">
+						<img
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg/2048px-Logotipo_de_la_Universidad_Nacional_de_Colombia.svg.png"
+							alt="University of Colombia"
+						/>
+						<div>
+							<h3>Electronic Engineering</h3>
+							<p>2016 - present</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contacto">
+				<div class="contact__container">
+					<ul>
+						<li>
+							<a href="mailto:millerjavierarias@gmail.com"
+								><img
+									src="https://cdn.worldvectorlogo.com/logos/official-gmail-icon-2020-.svg"
+									alt="gmail"
+							/></a>
+						</li>
+						<li>
+							<a
+								href="https://www.linkedin.com/in/miller-javier-arias-quintero/?locale=en_US"
+								target="_blank"
+								><img
+									src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg"
+									alt="linkedin"
+							/></a>
+						</li>
+						<li>
+							<a href="https://github.com/Miller1999" target="_blank"
+								><img
+									src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"
+									alt="github"
+							/></a>
+						</li>
+						<li>
+							<a href="https://wa.me/+573138220202" target="_blank"
+								><img
+									src="https://cdn.worldvectorlogo.com/logos/whatsapp-8.svg"
+									alt="whatsapp"
+							/></a>
+						</li>
+						<li>
+							<a href="https://t.me/+573138220202" target="_blank"
+								><img
+									src="https://cdn.worldvectorlogo.com/logos/telegram-1.svg"
+									alt="telegram"
+							/></a>
+						</li>
+						<li>
+							<a href="https://www.twitch.tv/mife20" target="_blank"
+								><img
+									src="https://cdn.worldvectorlogo.com/logos/twitch-purple.svg"
+									alt="twitch"
+							/></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="callToAction">
+				<p>Come and say hi! We can do magic together!</p>
+			</section>
+		</main>
+		<footer>
+			<p>
+				Made with ❤️ by
+				<a href="https://github.com/Miller1999" target="_blank">Miller Arias</a>
+			</p>
+		</footer>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
 		<script type="module" src="/src/main.js"></script>
 	</body>
 </html>
