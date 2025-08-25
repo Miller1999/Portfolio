@@ -17,23 +17,30 @@ projects_container.innerHTML = Projects.filter((project) => project.high)
 		return `
 		<div class="projects__card">
 			<h3>${project.title}</h3>
-			<img src="${project.img}" alt="${project.title}" />
-			<p>${project.description}</p>
-			<h4>Tech</h4>
-			<ul>
-				${project.tech.map((tech) => `<li>${tech}</li>`).join("")}
-			</ul>
-			<h4>Responsibilities</h4>
-			<ul>
-				${project.results.map((result) => `<li>${result}</li>`).join("")}
-			</ul>
-			<div class="card__buttons">
-			<button>
-				<a href="${project.repo}" target="_blank">View project</a>
-			</button>
-			<button>
-				<a href="${project.live}" target="_blank">Live project</a>
-			</button>
+			<div class="project__content">
+				<div class="card__image">
+					<img src="${project.img}" alt="${project.title}" />
+				</div>
+				<div class="card__text">
+				
+				<p>${project.description}</p>
+				<h4>Tech</h4>
+				<ul>
+					${project.tech.map((tech) => `<li>${tech}</li>`).join("")}
+				</ul>
+				<h4>Responsibilities</h4>
+				<ul>
+					${project.results.map((result) => `<li>${result}</li>`).join("")}
+				</ul>
+				<div class="card__buttons">
+					<button>
+						<a href="${project.repo}" target="_blank">View project</a>
+					</button>
+					<button>
+						<a href="${project.live}" target="_blank">Live project</a>
+					</button>
+				</div>
+				</div>	
 			</div>
 		</div>
 	`;
