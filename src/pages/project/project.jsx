@@ -1,17 +1,17 @@
-import "./work.sass";
+import "./project.sass";
 import { projects } from "../../info.json";
 import { Link } from "react-router-dom";
 
-const Work = () => {
+const Project = () => {
 	return (
-		<main className="work">
-			<div className="work--title">
-				<h1>Work</h1>
+		<main className="project">
+			<div className="project--title">
+				<h1>Project</h1>
 				<span>{projects.length}</span>
 			</div>
 			{projects.map((project) => (
-				<Link key={project.title} to={`/work/${project.title}`}>
-					<div className="works__title">
+				<Link key={project.title} to={`/projects/${project.title}`}>
+					<div className="projects__title">
 						<img
 							className="icon"
 							src="https://www.svgrepo.com/show/502625/double-arrow-right.svg"
@@ -24,4 +24,4 @@ const Work = () => {
 	);
 };
 
-export default Work;
+export default Project;

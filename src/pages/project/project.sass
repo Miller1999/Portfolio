@@ -1,17 +1,17 @@
 @import "../../_variables"
-.work--title
+.project--title
   display: flex
   align-items: center
   justify-content: space-between
   .icon
     width: 25px
     opacity: 0
-.work--title:hover
+.project--title:hover
   .icon
     opacity: 1
-.work--title:last-child
+.project--title:last-child
   border: none
-.works__title
+.projects__title
   position: relativep
   display: flex
   align-items: center
@@ -21,7 +21,7 @@
     transition: 1s all
     width: 0px
     opacity: 0
-.works__title:hover
+.projects__title:hover
   h2
     transition: 1s all
     transform: translateX(20px)
@@ -29,11 +29,11 @@
     transition: 1s all
     width: 25px
     opacity: 1
-.work--title:last-child
+.project--title:last-child
   border: none
 @include tablet
-  .work--title
+  .project--title
     font-size: 2rem
-    .works__title
+    .projects__title
       h2
         font-size: 2rem

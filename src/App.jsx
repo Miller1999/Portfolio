@@ -2,11 +2,11 @@ import { Fragment, useState, createContext, useContext } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
-import Work from "./pages/work/work";
+import Project from "./pages/project/project";
 import Education from "./pages/education/education";
 import Contact from "./pages/contact/contact";
 import Layout from "./components/layout/layout";
-import Template from "./pages/work/projects/template";
+import Template from "./pages/project/projects/template";
 import "./style.sass";
 import { projects } from "./info.json";
 import "normalize.css";
@@ -31,9 +31,9 @@ function App() {
 								<Fragment>
 									<Route path="/" element={<Home />} />
 									<Route path="/about" element={<About />} />
-									<Route path="/work" element={<Work />} />
+									<Route path="/projects" element={<Project />} />
 									<Route
-										path={`/work/:name`}
+										path={`/projects/:name`}
 										element={<Template projects={projects} />}
 									/>
 									<Route path="/education" element={<Education />} />

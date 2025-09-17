@@ -32,13 +32,13 @@ const Menu = ({ setShowNav, showNav, setShowHome, showHome }) => {
 				</li>
 				<li>
 					<Link
-						to="/work"
+						to="/projects"
 						onClick={() => {
 							setShowNav(!showNav);
 							setShowHome(!showHome);
 						}}
 					>
-						3. Work
+						3. Projects
 					</Link>
 				</li>
 				<li>
